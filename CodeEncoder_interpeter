@@ -13,7 +13,7 @@ dict2 = dict(zip(dict1.values(), dict1.keys()))
 
 
 def encode():
-    words = input("Input a sentence you want to endoce, NO PUNCTUATION:").strip().lower()
+    words = input("Input a sentence you want to encode, NO PUNCTUATION:").strip().lower()
     for letter in words:
         if letter == ' ':
             print('/')
