@@ -1,0 +1,17 @@
+class Solution:
+     def numJinS(self,J:str, S:str)->int:
+         n=0
+         for i in J:
+             n +=S.count(i)
+         return n
+
+
+class Solution:
+    def sortedSquares(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[int]
+        """
+        res=[a*a for a in A]
+        res.sort()
+        return res
